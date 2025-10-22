@@ -1,0 +1,69 @@
+/* Estilos para las tarjetas de pizza */
+.card-pizza {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.card-pizza:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.card-pizza img {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+.card-pizza h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #c1121f;
+}
+.card-pizza p {
+  margin-bottom: 8px;
+}
+.card-pizza ul {
+  margin-bottom: 16px;
+}
+.card-pizza button {
+  background: #c1121f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.card-pizza button:hover {
+  background: #780000;
+}
+:root {
+  --bg: #a05260;     /* Fondo burdeo claro */
+  --fg: #0f172a;     /* Texto oscuro */
+  --muted: #64748b;  /* Texto gris */
+}
+
+/* Body */
+body {
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Opcional: estilos del header/hero */
+header.hero {
+  background: linear-gradient(180deg, rgba(0,0,0,0.03), rgba(0,0,0,0.01));
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+footer {
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
