@@ -16,7 +16,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <Router basename="/React6">
+  <Router basename="/React7">
       <UserProvider>
         <CartProvider>
           <div className="app">
